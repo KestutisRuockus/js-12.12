@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>js 12.12 Objects</title>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+      table {
+        width: 100%;
+        margin: auto;
+        margin-bottom: 2rem;
+      }
+      td {
+        text-align: center;
+      }
+
+      .space-rigth {
+        margin-right: 1rem;
+      }
+
+      form div {
+        width: 20%;
+      }
+      div label {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 0.5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Age</th>
+          <th>Nationality</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>John</td>
+          <td>Doe</td>
+          <td>36</td>
+          <td>British</td>
+        </tr>
+      </tbody>
+    </table>
+    <form>
+      <div>
+        <label>
+          <span class="space-right">First Name</span>
+          <input id="firstNameInput" type="text" placeholder="First Name" />
+        </label>
+      </div>
+      <div>
+        <label>
+          <span class="space-right">Last Name</span>
+          <input id="lastNameInput" type="text" placeholder="Last Name" />
+        </label>
+      </div>
+      <div>
+        <label>
+          <span class="space-right">Age</span>
+          <input id="ageInput" type="text" placeholder="Age" />
+        </label>
+      </div>
+      <div>
+        <label>
+          <span class="space-right">Nationality</span>
+          <input id="nationalityInput" type="text" placeholder="Nationality" />
+        </label>
+      </div>
+    </form>
+    <div>
+      <button id="add-button">Add</button>
+    </div>
+    <h3>Delete</h3>
+    <input id="deleteInput" type="number" placeholder="number to delete" />
+    <button id="delete-button">Delete</button>
+    <!-- <script src="script.js"></script> -->
+    <script src="dynamicContent.js"></script>
+  </body>
+</html>
